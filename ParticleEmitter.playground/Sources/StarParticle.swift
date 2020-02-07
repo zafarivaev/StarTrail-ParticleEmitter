@@ -13,8 +13,7 @@ public class StarParticle: CAEmitterCell {
         self.spinRange = 5
         self.scale = 0.5
         self.scaleRange = 0.25
-        self.color = UIColor(white: 1, alpha: 1.0).cgColor
-        self.alphaSpeed = -0.050
+        self.alphaSpeed = -1
         self.contents = UIImage(named: "icons8-star-48")?.cgImage
     }
     
